@@ -31,3 +31,28 @@ left|Whether or not the employee left the company
 promotion_last_5years|Whether or not the employee was promoted in the last 5 years
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)
+
+An Exploratory Data Analysis is conducted to find, correct an structure the possible deficiencies in the dataset configuration (ex. null or duplicated values).
+
+Initiating the analysis from the level of satisfaction expressed by the workers, and setting and arbitrary division at 0.5 points (in a scale from 0 to 1) to separate satisfied from unsatisfied employees, a first view shows that a 71.78% (8607 cases) expresses a satisfaction > than 0.5, and 28.22% (3384 cases) a satisfaction below that level, as the following visualization shows:
+
+![Figure 1 - Satisfaction Distribution Count](./images/figure_1.png)
+
+From this point, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
+
+### Tools
+
+The task have been done in a Jupyter Notebook, using the following pacjages for the Python language:
+- **Numpy** and **Pandas** for data analysis and manipulation
+- **Matplotlib** and **Seaborn** for data visualizations
+- **Scikit-learn** is used to machine learning model construction
+
+### Model
+
+A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
+
+### Deliverables
+
+The process produced two deliverables:
+1. A Jupyter Notebook with all the work done
+2. A executive summary with the most important results to comunicate to the stakeholders in the project
