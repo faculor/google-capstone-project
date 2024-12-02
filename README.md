@@ -1,11 +1,10 @@
 # **Google Advanced Data Analytics Capstone Project**
 
 ## **Salifort Motors HR Department**
----
 
 This is my capstone project for the Google Advanced Data Analytics course from Google and Coursera. The project includes an analysis  of a dataset and the construction of predictive models that can provide insights to the Human Resources (HR) department of a large industrial firm.
 
-#### Business scenario and problem
+### Business scenario and problem
 
 The HR department at Salifort Motors wants to take some initiatives to improve employee satisfaction levels at the company. They collected data from employees, and now they need to extract useful insights from it. They want data-driven in order to answer the following question: what’s likely to make the employee leave the company?
 
@@ -15,7 +14,7 @@ The goals set to accomplish this project are:
 
 The logic behind the project is that if the resignation of employees can be predicted, it might be possible to identify factors that contribute to their leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 
-#### The data used in the project
+### The data used in the project
 
 
 Variable  |Description |
