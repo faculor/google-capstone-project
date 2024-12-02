@@ -17,6 +17,7 @@ The logic behind the project is that if the resignation of employees can be pred
 
 #### The data used in the project
 
+The dataset contains data about employees with 15,000 rows and 10 columns. In the following table, a summary of the variables with the corresponding description
 
 Variable  |Description |
 -----|-----|
