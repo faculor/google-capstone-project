@@ -1,7 +1,6 @@
 # **Google Advanced Data Analytics Capstone Project**
 
 ## **Salifort Motors HR Department**
----
 
 This is my capstone project for the Google Advanced Data Analytics course from Google and Coursera. The project includes an analysis  of a dataset and the construction of predictive models that can provide insights to the Human Resources (HR) department of a large industrial firm.
 
