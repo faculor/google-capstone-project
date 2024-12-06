@@ -36,7 +36,7 @@ An Exploratory Data Analysis is conducted to find, correct an structure the poss
 
 Initiating the analysis from the level of satisfaction expressed by the workers, and setting and arbitrary division at 0.5 points (in a scale from 0 to 1) to separate satisfied from unsatisfied employees, a first view shows that a 71.78% (8607 cases) expresses a satisfaction > than 0.5, and 28.22% (3384 cases) a satisfaction below that level, as the following visualization shows:
 
-![Figure 1 - Satisfaction Distribution Count](./images/figure_1.png)
+![Figure 1 - Satisfaction Distribution Count](./images/01_satistaction_level_count.png)
 
 From this point, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
 
