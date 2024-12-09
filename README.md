@@ -107,6 +107,15 @@ Some questions arise from these results:
 - Where do these employees go after leaving the company?
 - What incentives do they receive in their new roles outside the company?
 
+For the employees who left, with a satisfaction level of 0.7 or less, the analysis exhibit the following details:
+
+- There are some differences with the workers with a satisfaction_level greater than 0.7
+- The last_evaluation variable is, in general, lower than 0.7. This seems to point to workers whith worse califications for their work
+- The average monthly hours shows that this staff members is lesser than for the previous groups, showing a concentration of less than 175 hours.
+- Something similar surges from the number of projects these employees are involved in. The majority seems to work in two projects, and another relevant number works in six projects.
+- They have a tenure, in most cases, of 3 or 4 years; with low and medium level of salaries.
+- The work_accident, promotion_las_5_years and department variables doesn't show, in principle, relevant differences with the patterns for the whole dataset, and the more satisfied_level workers.
+
 ### **Tools**
 
 The task have been done in a Jupyter Notebook, using the following pacjages for the Python language:
