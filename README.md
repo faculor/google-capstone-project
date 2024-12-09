@@ -38,45 +38,10 @@ Initiating the analysis from the level of satisfaction expressed by the workers,
 
 ![Figure 1 - Satisfaction Distribution Count](./images/01_satistaction_level_count.png)
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>satisfaction_level</th>
-      <th>count</th>
-      <th>percentage</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>low</td>
-      <td>3384</td>
-      <td>28.221166</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>high</td>
-      <td>8607</td>
-      <td>71.778834</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+satisfaction_level |count |percentage|
+-----|-----|-----|
+low |3384 |28.221166|
+high |8607 |71.778834|
 
 From this point, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
 
