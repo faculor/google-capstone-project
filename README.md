@@ -38,7 +38,74 @@ Initiating the analysis from the level of satisfaction expressed by the workers,
 
 ![Figure 1 - Satisfaction Distribution Count](./images/01_satistaction_level_count.png)
 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>satisfaction_level</th>
+      <th>count</th>
+      <th>percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>low</td>
+      <td>3384</td>
+      <td>28.221166</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>high</td>
+      <td>8607</td>
+      <td>71.778834</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 From this point, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
+
+Upon further analysis, the focus shifts to employees who have departed, and the satisfaction level they expressed:
+
+![Figure 2 - Level of satisfaction of the departed employees](./images/01_left.png)
+
+- The visualization satisfy parcially what could be expected: those less satisfied tends to leave more than those whose satisfaction is greater.
+- But some odd information appears: in the *left* graphic, a departure of employees with 0.7 or more points of satisfaction arise, about 500 cases (eyballing the graphic)
+
+![Figure 3- Satisfied workers who left](./images/03_left_satisfaction_level.png)
+
+Left total number | High satisfactied (> 0.7)| Proportion|
+-----|-----|-----|
+1991 |530 |26.62%|
+
+The staff who left, despite manifesting high levels of satisfaction, present some characteristics that warrant a review by the company:
+1. All of them received performance ratings of 0.5 or higher, with a significant portion receiving 0.8 or higher. This indicates that they were all medium to high-performing employees.
+2. On average, they worked more hours than the rest of the staff. The average monthly hours for all employees is approximately 200, while these employees averaged around 243 monthly hours.
+3. Similarly, they were involved in more projects. The average number of projects for all employees is 3.8 (standard deviation: 1.16), while these employees averaged 4.5 (standard deviation: 0.6). Over half of these satisfied departed employees were involved in five projects (297 employees).
+4. Regarding tenure, the average tenure for all company staff is 3.36 years, but for this group, it's 5.06 years. Most of these employees had five or six years of tenure in the company (5 years: 395; 6 years: 101). They represent 95.58% of this group and 24.91% of the total departing employees.
+5. Only an average of 0.37% of the employees in this analysis received a promotion in the last five years, compared to the company-wide average of 1.69%.
+
+Some questions arise from these results:
+
+- Are we dealing with employees who have reached a plateau in their career development within the company?
+- How are these employees distributed across the company's hierarchy?
+- Where do these employees go after leaving the company?
+- What incentives do they receive in their new roles outside the company?
 
 ### **Tools**
 
