@@ -17,11 +17,11 @@ This is my capstone project for the Google Advanced Data Analytics course from G
 
 - ### [**Technical aspects**](#technic)
 
-- ### [**Model**](#model)
+- ### [**Logistic Model**](#model)
 
 ---
 
-<a id="excecutive_summary"></a>
+<a id="executive_summary"></a>
 ### **Excecutive Summary**
 
 <a id="bussines_scenario"></a>
@@ -130,3 +130,6 @@ The process produced two deliverables:
 ### **Model**
 
 A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
+
+[def]: #model
+[def2]: #model
