@@ -5,6 +5,26 @@
 This is my capstone project for the Google Advanced Data Analytics course from Google and Coursera. The project includes an analysis  of a dataset and the construction of predictive models that can provide insights to the Human Resources (HR) department of a large industrial firm.
 ---
 
+## **Contents**
+
+- ### [**Executive Summary**](#executive_summary)
+
+- ### [**Business scenario and problem**](#bussines_scenario)
+
+- ### [**Dataset Overview**](#dataset)
+
+- ### [**Summary of the Data Analysis**](#analysis)
+
+- ### [**Technical aspects**](#technic)
+
+- ### [**Model**](#model)
+
+---
+
+<a id="excecutive_summary"></a>
+### **Excecutive Summary**
+
+<a id="bussines_scenario"></a>
 ### **Business scenario and problem**
 
 The HR department at Salifort Motors wants to take some initiatives to improve employee satisfaction levels at the company. They collected data from employees, and now they need to extract useful insights from it. They want data-driven in order to answer the following question: what’s likely to make the employee leave the company?
@@ -15,7 +35,8 @@ The goals set to accomplish this project are:
 
 The logic behind the project is that if the resignation of employees can be predicted, it might be possible to identify factors that contribute to they leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 
-### **The data used in the project**
+<a id="dataset"></a>
+### **Dataset**
 
 The dataset contains data about employees with 15,000 rows and 10 columns. In the following table, a summary of the variables with the corresponding description
 
@@ -32,7 +53,17 @@ promotion_last_5years|Whether or not the employee was promoted in the last 5 yea
 Department|The employee's department|object|
 salary|The employee's salary (U.S. dollars)|object|
 
+<a id="analysis"></a>
+### **Summary of the Data Analysis**
+
 An Exploratory Data Analysis is conducted to find, correct an structure the possible deficiencies in the dataset configuration (ex. null or duplicated values).
+
+Before entering the exploration of the satisfaction levels of the workers, let's take a look of how many of them left the company:
+
+Situation|Count|Percentage|
+-----|-----|-----|
+Left|1991|16.60%|
+Stayed|10000|83.40%|
 
 Initiating the analysis from the level of satisfaction expressed by the workers, and setting and arbitrary division at 0.5 points (in a scale from 0 to 1) to separate satisfied from unsatisfied employees, a first view shows that a 71.78% (8607 cases) expresses a satisfaction > than 0.5, and 28.22% (3384 cases) a satisfaction below that level, as the following visualization shows:
 
@@ -43,7 +74,7 @@ satisfaction_level |count |percentage|
 low |3384 |28.221166|
 high |8607 |71.778834|
 
-From this point, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
+From this point on, the analysis ivestigates the possible variables that may influence the level of satisfaction of the staff. This task is achieved using the tools provided by the packages explored during the course
 
 Upon further analysis, the focus shifts to employees who have departed, and the satisfaction level they expressed:
 
@@ -81,19 +112,21 @@ For the employees who left, with a satisfaction level of 0.7 or less, the analys
 - They have a tenure, in most cases, of 3 or 4 years; with low and medium level of salaries.
 - The work_accident, promotion_las_5_years and department variables doesn't show, in principle, relevant differences with the patterns for the whole dataset, and the more satisfied_level workers.
 
-### **Tools**
+<a id="technic"></a>
+### **Technical aspects**
 
 The task have been done in a Jupyter Notebook, using the following pacjages for the Python language:
 - **Numpy** and **Pandas** for data analysis and manipulation
 - **Matplotlib** and **Seaborn** for data visualizations
 - **Scikit-learn** is used to machine learning model construction
 
-### **Model**
-
-A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
-
-### **Deliverables**
+#### **Deliverables**
 
 The process produced two deliverables:
 1. A Jupyter Notebook with all the work done
 2. A executive summary with the most important results to comunicate to the stakeholders in the project
+
+<a id="model"></a>
+### **Model**
+
+A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
