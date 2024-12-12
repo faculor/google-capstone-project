@@ -24,6 +24,8 @@ This is my capstone project for the Google Advanced Data Analytics course from G
 <a id="executive_summary"></a>
 ### **Excecutive Summary**
 
+The executive summary for non-technical stakeholders can be downloaded [here](executive_summary.pdf)
+
 <a id="bussines_scenario"></a>
 ### **Business scenario and problem**
 
@@ -137,4 +139,8 @@ The process produced two deliverables:
 
 A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
 
-[def]: #model
+The logistic regression model achieved precision of 79%, recall of 82%, f1-score of 80% (all weighted averages), and accuracy of 82%, on the test set.
+
+The Logistic Regression model have a good performance predicting the employees that won't leave, but a poor performance with the target category of leaving employees.
+
+The model could be improved, by feature engineering, and combining different types of hyperparameters. Another alternative could be to implement another classification model, such as decision-trees based models.
