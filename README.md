@@ -61,7 +61,7 @@ An Exploratory Data Analysis is conducted to find, correct an structure the poss
 Before entering the exploration of the satisfaction levels of the workers, let's take a look of how many of them left the company:
 
 Situation|Count|Percentage|
------|-----|-----|
+:---:|:---:|:---:|
 Left|1991|16.60%|
 Stayed|10000|83.40%|
 
@@ -70,7 +70,7 @@ Initiating the analysis from the level of satisfaction expressed by the workers,
 ![Figure 1 - Satisfaction Distribution Count](./images/01_satistaction_level_count.png)
 
 satisfaction_level |count |percentage|
------|-----|-----|
+:---:|-----|-----|
 low |3384 |28.221166|
 high |8607 |71.778834|
 
@@ -86,8 +86,8 @@ Upon further analysis, the focus shifts to employees who have departed, and the 
 ![Figure 3- Satisfied workers who left](./images/03_left_satisfaction_level.png)
 
 Left total number | High satisfactied (> 0.7)| Proportion|
------|-----|-----|
-1991 |530 |26.62%|
+|:---:|:---:|:---:|
+|1991 |530 |26.62%|
 
 The staff who left, despite manifesting high levels of satisfaction, present some characteristics that warrant a review by the company:
 1. All of them received performance ratings of 0.5 or higher, with a significant portion receiving 0.8 or higher. This indicates that they were all medium to high-performing employees.
@@ -112,6 +112,12 @@ For the employees who left, with a satisfaction level of 0.7 or less, the analys
 - They have a tenure, in most cases, of 3 or 4 years; with low and medium level of salaries.
 - The work_accident, promotion_las_5_years and department variables doesn't show, in principle, relevant differences with the patterns for the whole dataset, and the more satisfied_level workers.
 
+Another variables that have impact in workers leaving the firm is the number of projects they are involved in:
+
+- The proportion is increasing, and for case of seven projects, all the workers left (145).
+- This is consistent with the previous results: more hours of work, more projects, less mobility, results in a tendency to leave the company
+
+
 <a id="technic"></a>
 ### **Technical aspects**
 
@@ -132,4 +138,3 @@ The process produced two deliverables:
 A Logistic Regression model is constructed, due to the binary characterization of the target variable (`left` column). The objective of the model is to predict the departure of employees based on the relevant features contained in the dataset.
 
 [def]: #model
-[def2]: #model
